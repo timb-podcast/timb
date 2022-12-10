@@ -6,7 +6,7 @@ body{
 }
 .header{
 
-    background-image: (linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.15) 74.35%, #000000 100%),url('micbg.svg'));
+    background-image: url('micbg.svg');
     background-position: 0 0 0 0;
     background-repeat: no-repeat;
     background-size: 100%;
