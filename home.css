@@ -219,7 +219,7 @@ label #btn, label #cancel{
     justify-content: space-between;
     align-items: center;
     margin-top: 8px;
-    height:150px;
+    height:300px;
     overflow:hidden;
 }
 .blog-descp .b-descp{
