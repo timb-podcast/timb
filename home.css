@@ -205,7 +205,7 @@ label #btn, label #cancel{
     margin-top: 5px;
     width: 100%;
     overflow:hidden;
-    height:100px;
+    
 }
 .blog-title{
     color: #282828;
@@ -220,7 +220,7 @@ label #btn, label #cancel{
     align-items: center;
     margin-top: 8px;
     height:300px;
-    overflow:hidden;
+    
 }
 .blog-descp .b-descp{
     font-size: 1rem;
