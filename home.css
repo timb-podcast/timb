@@ -217,7 +217,8 @@ label #btn, label #cancel{
     align-items: center;
     margin-top: 8px;
     height: 250px;
-    overflow: hidden;
+        object-position: 0;
+
 }
 .blog-descp .b-descp{
     font-size: 1rem;
