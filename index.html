@@ -1,96 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="stylesheet" href="home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THe India I'm Building</title>
+    <link rel="stylesheet" href="home.css" >
+   <link rel="stylesheet" href="glider.min.css">                  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check">
+        
+        <i class="fa fa-navicon" id="btn"></i>
+        <i class="fa fa-times" id="cancel"></i>
+      </label>
+      <img src="logo.svg" alt="">
+      <ul class="list">
+        <li><a href="#">Podcast</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Subscribe</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="m-container">
+      <img src="bg-img.svg" alt="" class="bg-img" />
+      <ul class="share-icons">
+        <li class="icons">
+          <a href="https://www.linkedin.com/company/india-im-building/"><img src="llinkedin.svg" alt="" /></a>
+        </li>
+        <li class="icons">
+          <a href="https://www.instagram.com/timb.podcast/"><img src="instagram.svg" alt="" /></a>
+        </li>
+        <li class="icons">
+          <a href="https://open.spotify.com/show/18W1NDzUVjxZfw3WunAXCC?si=4ojRQ4qLScmqIlbaQXn1jQ&utm_source=copy-link&nd=1"><img src="spotify.svg" alt="" /></a>
+        </li>
+        <li class="icons">
+          <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iMTFhNWIyNC9wb2RjYXN0L3Jzcw?sa=X&ved=0CAcQrrcFahcKEwjo5-m0xov8AhUAAAAAHQAAAAAQDg"><img src="googlepodcasts.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
     
-</head>
-<body>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8584169206270647"
-     crossorigin="anonymous"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8584169206270647"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-ef+6k-30-ac+ty"
-     data-ad-client="ca-pub-8584169206270647"
-     data-ad-slot="9599505539"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8584169206270647"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-8584169206270647"
-     data-ad-slot="7582542821"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8584169206270647"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-8584169206270647"
-     data-ad-slot="4648477473"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8584169206270647"
-     crossorigin="anonymous"></script>
-<!-- web -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8584169206270647"
-     data-ad-slot="6879298844"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-    </script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="header" style="width:100%;">
-
-        <div class="navbar" style="width: 100%;">
-
-            <a href="podcast.html">Podcast</a>
-            <a href="blog.html">Blog</a>
-            <a href="about.html">About</a>
-    
-        </div>
-
-        <div class="nl-tag">
-
-            <span class="n">India <br> I'm Building</span>
-            <div class="l">
-
-                <span class="l-t">Listen Now</span>
-                <nav class="l-w-l">
-
-                    <a href="https://open.spotify.com/show/6MeyFIkdg60x3dEULeotXx"><img src="spotify.svg" alt="spotify"></a>
-                    <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5odWJob3BwZXIuY29tLzkzMDg3MzZjMzVhODc5NDc2NTZlODdlODJkMTE1YWUxLnJzcw=="><img src="google-podcast.svg" alt="google-podcast"></a>
-                    <a href="https://music.amazon.com/podcasts/e98181a7-a3a3-424c-b023-46a503e23f7c"><img src="amazon-music.svg" alt="amazon-music"></a>
-
-                </nav>
+    <section class="blog-slider">
+      <h3>Blogs</h3>
+     
+      <div class="glider-contain">
+        <div class="glider">
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
             </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="b-img-cotainer">
+              <div class="b-img">
+                <a href="#">
+                  <img src="images/img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="b-box-text">
+              <a href="#" class="blog-title"> This Is our Blog</a>
+              <div class="blog-descp">
+                <span class="b-descp"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                  odit non facilis voluptatum cupiditate veniam.</span
+                >
+              </div>
+              <div class="b-author">
+                <img src="images/author.svg" alt="" />
+                <div class="b-a-info">
+                  <a href="#">Author Name</a>
+                  <h6>10/12/22</h6>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div><br>
-    <div class="cards">
 
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
+      </div>
+    </section>
+    <div class="podcast-sec">
+      <h3>Podcast</h3>
+      <iframe
+        class="p-h"
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/show/18W1NDzUVjxZfw3WunAXCC?utm_source=generator&theme=0"
+        width="80%"
+        height="400px"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
     </div>
+   
+    
 
-    <div class="footer" style="width: 100%;">
-
-            <a href="#" style="font-weight: 400;">FAQ</a><br>
-            <a href="#" style="width: 100%; font-weight:250 ;" >&copy; 2022 TIMB</a>
-
-    </div>
-</body>
+   <script src="glider.min.js"></script>
+    <script>
+      new Glider(document.querySelector('.glider'), {
+  slidesToScroll: 1,
+  slidesToShow: 5.5,
+  draggable: true,
+  dots: '.dots',
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+    </script>
+  </body>
 </html>
